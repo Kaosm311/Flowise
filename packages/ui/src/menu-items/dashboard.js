@@ -1,5 +1,6 @@
 // assets
 import {
+    IconSettings,
     IconMapSearch,
     IconUsersGroup,
     IconHierarchy,
@@ -13,7 +14,7 @@ import {
 } from '@tabler/icons-react'
 
 // constant
-const icons = { IconMapSearch, IconUsersGroup, IconHierarchy, IconBuildingStore, IconKey, IconTool, IconLock, IconRobot, IconVariable, IconFiles }
+const icons = { IconSettings, IconMapSearch, IconUsersGroup, IconHierarchy, IconBuildingStore, IconKey, IconTool, IconLock, IconRobot, IconVariable, IconFiles }
 
 // ==============================|| DASHBOARD MENU ITEMS ||============================== //
 
@@ -104,6 +105,13 @@ const dashboard = {
             icon: icons.IconFiles,
             breadcrumbs: true
         } */
+          {
+            id: 'Admin',
+            title: 'Administration'
+            type: 'item,'
+            icon: icons.IconSettings,
+            breadcrumbs: true
+       },
     ]
 }
 
