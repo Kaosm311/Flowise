@@ -107,11 +107,11 @@ const dashboard = {
         } */
           {
             id: 'Admin',
-            title: 'Administration'
-            type: 'item,'
+            title: 'Administration',
+            type: 'item',
             icon: icons.IconSettings,
             breadcrumbs: true
-       },
+       }
     ]
 }
 
