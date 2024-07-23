@@ -21,6 +21,13 @@ const dashboard = {
     title: '',
     type: 'group',
     children: [
+       {
+            id: 'RE-Q',
+            title: 'Regulatory Intelligence',
+            type: 'item',
+            url: 'https://re-q.onrender.com,
+            icon: icons.IconHierarchy,
+            breadcrumbs: true
         {
             id: 'chatflows',
             title: 'Chatflows',
