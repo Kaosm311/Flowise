@@ -13,7 +13,7 @@ import {
 } from '@tabler/icons-react'
 
 // constant
-const icons = { IconUsersGroup, IconHierarchy, IconBuildingStore, IconKey, IconTool, IconLock, IconRobot, IconVariable, IconFiles }
+const icons = { IconMapSearch, IconUsersGroup, IconHierarchy, IconBuildingStore, IconKey, IconTool, IconLock, IconRobot, IconVariable, IconFiles }
 
 // ==============================|| DASHBOARD MENU ITEMS ||============================== //
 
@@ -27,6 +27,7 @@ const dashboard = {
             title: 'Regulatory Intelligence',
             type: 'item',
             url: 'https://re-q.onrender.com',
+            isExternalLink: true,
             icon: icons.IconMapSearch,
             breadcrumbs: true
        },
