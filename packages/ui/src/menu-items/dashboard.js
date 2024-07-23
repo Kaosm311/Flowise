@@ -26,7 +26,7 @@ const dashboard = {
             id: 'RE-Q',
             title: 'Regulatory Intelligence',
             type: 'item',
-            url: 'https://re-q.onrender.com,
+            url: 'https://re-q.onrender.com',
             icon: icons.IconMapSearch,
             breadcrumbs: true
        },
