@@ -50,7 +50,7 @@ const dashboard = {
         },*/
         {
             id: 'marketplaces',
-            title: 'Marketplaces',
+            title: 'Templates',
             type: 'item',
             url: '/marketplaces',
             icon: icons.IconBuildingStore,
@@ -64,14 +64,14 @@ const dashboard = {
             icon: icons.IconTool,
             breadcrumbs: true
         }, */
-        {
+     /*   {
             id: 'assistants',
             title: 'Assistants',
             type: 'item',
             url: '/assistants',
             icon: icons.IconRobot,
             breadcrumbs: true
-        },
+        }, */
         {
             id: 'credentials',
             title: 'Credentials',
@@ -96,14 +96,14 @@ const dashboard = {
             icon: icons.IconKey,
             breadcrumbs: true
         },
-        {
+ /*       {
             id: 'document-stores',
             title: 'Document Stores',
             type: 'item',
             url: '/document-stores',
             icon: icons.IconFiles,
             breadcrumbs: true
-        }
+        } */
     ]
 }
 
