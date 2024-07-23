@@ -34,7 +34,7 @@ const dashboard = {
        },
         {
             id: 'chatflows',
-            title: 'Chatflows',
+            title: 'Agents',
             type: 'item',
             url: '/chatflows',
             icon: icons.IconHierarchy,
