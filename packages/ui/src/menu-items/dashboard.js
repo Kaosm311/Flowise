@@ -1,5 +1,6 @@
 // assets
 import {
+    IconMapSearch,
     IconUsersGroup,
     IconHierarchy,
     IconBuildingStore,
